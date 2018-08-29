@@ -11,15 +11,17 @@ public class ControllerInputManager : MonoBehaviour {
 
     private bool isSet = false;
     private bool goodToRotate = true;
+    private bool goodToRotateRight = true;
+    private bool goodToRotateLeft = true;
 
-	void LateUpdate ()
+
+    void LateUpdate ()
     {
         if (PositionManager.Instance.rightController && !isSet)
         {
             isSet = true;
             PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().TouchpadAxisChanged += new ControllerInteractionEventHandler(AxisChanged);
             PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().TouchpadTouchEnd += new ControllerInteractionEventHandler(TouchpadReleased);
-
         }
 
     }
@@ -35,32 +37,50 @@ public class ControllerInputManager : MonoBehaviour {
 
     private void AxisChanged(object sender, ControllerInteractionEventArgs e)
     {
+        rotatePlayer(e);
+        checkIfGoodToRotate(e);
+    }
+    private void rotatePlayer(ControllerInteractionEventArgs e)
+    {
         if (goodToRotate)
         {
-            if (e.touchpadAxis.x >= 0.9f)
+            if (e.touchpadAxis.x >= 0.9f && goodToRotateRight)
             {
                 // Rotate Right 90
                 GameObject destination = new GameObject();
                 destination.transform.position = PositionManager.Instance.player.position;
-                destination.transform.rotation = PositionManager.Instance.player.rotation;
-                destination.transform.localEulerAngles = new Vector3(destination.transform.localEulerAngles.x, destination.transform.localEulerAngles.y + 90.0f, destination.transform.localEulerAngles.z);
-                PositionManager.Instance.teleportPlayer(PositionManager.Instance.player, destination.transform);
-                print("The touchpad axis is :  " + e.touchpadAxis.ToString());
+                destination.transform.Rotate(0, 90, 0);
+                PositionManager.Instance.teleportPlayer(PositionManager.Instance.player, destination.transform);            
                 GameObject.Destroy(destination);
                 goodToRotate = false;
+                goodToRotateRight = false;
 
             }
-            else if (e.touchpadAxis.x <= -0.9f)
+            else if (e.touchpadAxis.x <= -0.9f && goodToRotateLeft)
             {
                 // Rotate Left 90
                 GameObject destination = new GameObject();
                 destination.transform.position = PositionManager.Instance.player.position;
-                destination.transform.rotation = PositionManager.Instance.player.rotation;
-                destination.transform.localEulerAngles = new Vector3(destination.transform.localEulerAngles.x, destination.transform.localEulerAngles.y - 90.0f, destination.transform.localEulerAngles.z);
+                destination.transform.Rotate(0, -90, 0);
                 PositionManager.Instance.teleportPlayer(PositionManager.Instance.player, destination.transform);
                 GameObject.Destroy(destination);
                 goodToRotate = false;
+                goodToRotateLeft = false;
             }
+        }
+    }
+    private void checkIfGoodToRotate(ControllerInteractionEventArgs e)
+    {
+        if(e.touchpadAxis.x < .1 ) // If we return to the origin of the joy stick the user is now alloud to rotate again
+        {
+            goodToRotate = true;
+            goodToRotateRight = true;
+        }
+        if (e.touchpadAxis.x > -.1) // If we return to the origin of the joy stick the user is now alloud to rotate again
+        {
+            goodToRotate = true;
+            goodToRotateLeft = true;
+
         }
     }
 

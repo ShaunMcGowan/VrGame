@@ -12,6 +12,8 @@ public class PositionManager : MonoBehaviour {
     [HideInInspector]
     public Transform player;
     [HideInInspector]
+    public Transform playerRotator;
+    [HideInInspector]
     public Transform rightController;
     [HideInInspector]
     public Transform leftController;
@@ -28,6 +30,7 @@ public class PositionManager : MonoBehaviour {
             leftController = VRTK_DeviceFinder.DeviceTransform(VRTK_DeviceFinder.Devices.LeftController);
             rightController = VRTK_DeviceFinder.DeviceTransform(VRTK_DeviceFinder.Devices.RightController);
             playAreaScripts = GameObject.Find("PlayArea");
+            playerRotator = GameObject.Find("Rotator").transform;
         }
     }
     /// <summary>
@@ -62,10 +65,7 @@ public class PositionManager : MonoBehaviour {
     }
 
 
-    public void rotatePlayerLeft()
-    {
-
-    }
+   
     private IEnumerator fadeToBlack()
     {
         float fadeTime = 0.3f;

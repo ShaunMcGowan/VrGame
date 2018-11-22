@@ -1,0 +1,4539 @@
+fileFormatVersion: 2
+guid: b2556970f243232409d20b4092482126
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bn_Sv98_Body
+    100002: Bn_Sv98_Body001
+    100004: Bn_Sv98_Bullet
+    100006: Bn_Sv98_Leaver
+    100008: Bn_Sv98_Leg_Left
+    100010: Bn_Sv98_Leg_Right
+    100012: Bn_Sv98_Magazine
+    100014: Bn_Sv98_Scope
+    100016: Bn_Sv98_Silencer
+    100018: Camera01
+    100020: Casquilo
+    100022: FPS HANDS
+    100024: Head
+    100026: L Clavicle
+    100028: L Finger0
+    100030: L Finger01
+    100032: L Finger02
+    100034: L Finger1
+    100036: L Finger11
+    100038: L Finger12
+    100040: L Finger2
+    100042: L Finger21
+    100044: L Finger22
+    100046: L Finger3
+    100048: L Finger31
+    100050: L Finger32
+    100052: L Finger4
+    100054: L Finger41
+    100056: L Finger42
+    100058: L Forearm
+    100060: L ForeTwist
+    100062: L ForeTwist1
+    100064: L ForeTwist2
+    100066: L Hand
+    100068: L UpperArm
+    100070: n_Sv98_HandParent
+    100072: Neck
+    100074: //RootNode
+    100076: R Clavicle
+    100078: R Finger0
+    100080: R Finger01
+    100082: R Finger02
+    100084: R Finger1
+    100086: R Finger11
+    100088: R Finger12
+    100090: R Finger2
+    100092: R Finger21
+    100094: R Finger22
+    100096: R Finger3
+    100098: R Finger31
+    100100: R Finger32
+    100102: R Finger4
+    100104: R Finger41
+    100106: R Finger42
+    100108: R Forearm
+    100110: R ForeTwist
+    100112: R ForeTwist1
+    100114: R ForeTwist2
+    100116: R Hand
+    100118: R UpperArm
+    100120: SV98_Body
+    100122: Sv98_Leaver
+    100124: Sv98_Magazine_01
+    100126: Sv98_Pata_Der001
+    100128: Sv98_Pata_Izq
+    100130: ' Head'
+    100132: ' L Clavicle'
+    100134: ' L Finger0'
+    100136: ' L Finger01'
+    100138: ' L Finger02'
+    100140: ' L Finger1'
+    100142: ' L Finger11'
+    100144: ' L Finger12'
+    100146: ' L Finger2'
+    100148: ' L Finger21'
+    100150: ' L Finger22'
+    100152: ' L Finger3'
+    100154: ' L Finger31'
+    100156: ' L Finger32'
+    100158: ' L Finger4'
+    100160: ' L Finger41'
+    100162: ' L Finger42'
+    100164: ' L Forearm'
+    100166: ' L ForeTwist'
+    100168: ' L ForeTwist1'
+    100170: ' L ForeTwist2'
+    100172: ' L Hand'
+    100174: ' L UpperArm'
+    100176: ' Neck'
+    100178: ' R Clavicle'
+    100180: ' R Finger0'
+    100182: ' R Finger01'
+    100184: ' R Finger02'
+    100186: ' R Finger1'
+    100188: ' R Finger11'
+    100190: ' R Finger12'
+    100192: ' R Finger2'
+    100194: ' R Finger21'
+    100196: ' R Finger22'
+    100198: ' R Finger3'
+    100200: ' R Finger31'
+    100202: ' R Finger32'
+    100204: ' R Finger4'
+    100206: ' R Finger41'
+    100208: ' R Finger42'
+    100210: ' R Forearm'
+    100212: ' R ForeTwist'
+    100214: ' R ForeTwist1'
+    100216: ' R ForeTwist2'
+    100218: ' R Hand'
+    100220: ' R UpperArm'
+    100222: Bn_Sv98_HandParent
+    100224: Camera001
+    100226: FPS Hands
+    100228: Lens
+    400000: Bn_Sv98_Body
+    400002: Bn_Sv98_Body001
+    400004: Bn_Sv98_Bullet
+    400006: Bn_Sv98_Leaver
+    400008: Bn_Sv98_Leg_Left
+    400010: Bn_Sv98_Leg_Right
+    400012: Bn_Sv98_Magazine
+    400014: Bn_Sv98_Scope
+    400016: Bn_Sv98_Silencer
+    400018: Camera01
+    400020: Casquilo
+    400022: FPS HANDS
+    400024: Head
+    400026: L Clavicle
+    400028: L Finger0
+    400030: L Finger01
+    400032: L Finger02
+    400034: L Finger1
+    400036: L Finger11
+    400038: L Finger12
+    400040: L Finger2
+    400042: L Finger21
+    400044: L Finger22
+    400046: L Finger3
+    400048: L Finger31
+    400050: L Finger32
+    400052: L Finger4
+    400054: L Finger41
+    400056: L Finger42
+    400058: L Forearm
+    400060: L ForeTwist
+    400062: L ForeTwist1
+    400064: L ForeTwist2
+    400066: L Hand
+    400068: L UpperArm
+    400070: n_Sv98_HandParent
+    400072: Neck
+    400074: //RootNode
+    400076: R Clavicle
+    400078: R Finger0
+    400080: R Finger01
+    400082: R Finger02
+    400084: R Finger1
+    400086: R Finger11
+    400088: R Finger12
+    400090: R Finger2
+    400092: R Finger21
+    400094: R Finger22
+    400096: R Finger3
+    400098: R Finger31
+    400100: R Finger32
+    400102: R Finger4
+    400104: R Finger41
+    400106: R Finger42
+    400108: R Forearm
+    400110: R ForeTwist
+    400112: R ForeTwist1
+    400114: R ForeTwist2
+    400116: R Hand
+    400118: R UpperArm
+    400120: SV98_Body
+    400122: Sv98_Leaver
+    400124: Sv98_Magazine_01
+    400126: Sv98_Pata_Der001
+    400128: Sv98_Pata_Izq
+    400130: ' Head'
+    400132: ' L Clavicle'
+    400134: ' L Finger0'
+    400136: ' L Finger01'
+    400138: ' L Finger02'
+    400140: ' L Finger1'
+    400142: ' L Finger11'
+    400144: ' L Finger12'
+    400146: ' L Finger2'
+    400148: ' L Finger21'
+    400150: ' L Finger22'
+    400152: ' L Finger3'
+    400154: ' L Finger31'
+    400156: ' L Finger32'
+    400158: ' L Finger4'
+    400160: ' L Finger41'
+    400162: ' L Finger42'
+    400164: ' L Forearm'
+    400166: ' L ForeTwist'
+    400168: ' L ForeTwist1'
+    400170: ' L ForeTwist2'
+    400172: ' L Hand'
+    400174: ' L UpperArm'
+    400176: ' Neck'
+    400178: ' R Clavicle'
+    400180: ' R Finger0'
+    400182: ' R Finger01'
+    400184: ' R Finger02'
+    400186: ' R Finger1'
+    400188: ' R Finger11'
+    400190: ' R Finger12'
+    400192: ' R Finger2'
+    400194: ' R Finger21'
+    400196: ' R Finger22'
+    400198: ' R Finger3'
+    400200: ' R Finger31'
+    400202: ' R Finger32'
+    400204: ' R Finger4'
+    400206: ' R Finger41'
+    400208: ' R Finger42'
+    400210: ' R Forearm'
+    400212: ' R ForeTwist'
+    400214: ' R ForeTwist1'
+    400216: ' R ForeTwist2'
+    400218: ' R Hand'
+    400220: ' R UpperArm'
+    400222: Bn_Sv98_HandParent
+    400224: Camera001
+    400226: FPS Hands
+    400228: Lens
+    2300000: Casquilo
+    2300002: SV98_Body
+    2300004: Sv98_Leaver
+    2300006: Sv98_Magazine_01
+    2300008: Sv98_Pata_Der001
+    2300010: Sv98_Pata_Izq
+    2300012: Lens
+    3300000: Casquilo
+    3300002: SV98_Body
+    3300004: Sv98_Leaver
+    3300006: Sv98_Magazine_01
+    3300008: Sv98_Pata_Der001
+    3300010: Sv98_Pata_Izq
+    3300012: Lens
+    4300000: FPS HANDS
+    4300002: Sv98_Leaver
+    4300004: SV98_Body
+    4300006: Casquilo
+    4300008: Sv98_Magazine_01
+    4300010: Sv98_Pata_Izq
+    4300012: Sv98_Pata_Der001
+    4300014: FPS Hands
+    4300016: Lens
+    7400000: All Anims
+    7400002: Fire
+    7400004: Reload
+    7400006: Reload Empty
+    7400008: Iddle
+    7400010: Aim In
+    7400012: AIM
+    7400014: Aim Out
+    7400016: Aim In NoScope
+    7400018: AIM NoScope
+    7400020: Aim Out NoScope
+    7400022: Start Running
+    7400024: Runing Idle
+    7400026: End Running
+    7400028: Walk
+    7400030: Holder Out
+    7400032: Holder In
+    7400034: Hide Weapon
+    7400036: Show Weapon
+    7400038: Melee Attack
+    7400040: Holder
+    7400042: Fire AIM NO SCOPE
+    7400044: Walking Aim no Scope
+    7400046: Fire Aim Scope
+    7400048: Walking Aim Scope
+    7400050: Jump
+    9500000: //RootNode
+    13700000: FPS HANDS
+    13700002: FPS Hands
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: All Anims
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 660
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Lens
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera001
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/Bn_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: SniperSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 4d20f2405a49eb6438c5a9c61578277c,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 53
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Reload Empty
+      takeName: Take 001
+      firstFrame: 53
+      lastFrame: 164
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: SniperSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 4d20f2405a49eb6438c5a9c61578277c,
+          type: 3}
+        floatParameter: 0
+        intParameter: 3
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Iddle
+      takeName: Take 001
+      firstFrame: 164
+      lastFrame: 350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim In
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 364
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AIM
+      takeName: Take 001
+      firstFrame: 364
+      lastFrame: 364.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim Out
+      takeName: Take 001
+      firstFrame: 364
+      lastFrame: 378
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim In NoScope
+      takeName: Take 001
+      firstFrame: 378
+      lastFrame: 392
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: AIM NoScope
+      takeName: Take 001
+      firstFrame: 392
+      lastFrame: 392.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Aim Out NoScope
+      takeName: Take 001
+      firstFrame: 392
+      lastFrame: 406
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Start Running
+      takeName: Take 001
+      firstFrame: 406
+      lastFrame: 414
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Runing Idle
+      takeName: Take 001
+      firstFrame: 414
+      lastFrame: 434
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: End Running
+      takeName: Take 001
+      firstFrame: 434
+      lastFrame: 446
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 446
+      lastFrame: 494
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Holder Out
+      takeName: Take 001
+      firstFrame: 494
+      lastFrame: 539
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.8987338
+        functionName: HolderFn
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 4d20f2405a49eb6438c5a9c61578277c,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Holder In
+      takeName: Take 001
+      firstFrame: 539
+      lastFrame: 590
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: HolderFn
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 4d20f2405a49eb6438c5a9c61578277c,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Hide Weapon
+      takeName: Take 001
+      firstFrame: 590
+      lastFrame: 604
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Show Weapon
+      takeName: Take 001
+      firstFrame: 604
+      lastFrame: 627
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera01
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Melee Attack
+      takeName: Take 001
+      firstFrame: 627
+      lastFrame: 659
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.020661158
+        functionName: SniperSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 4d20f2405a49eb6438c5a9c61578277c,
+          type: 3}
+        floatParameter: 0
+        intParameter: 2
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera001
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/Bn_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Holder
+      takeName: Take 001
+      firstFrame: 539
+      lastFrame: 539.1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 0
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 0
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 0
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 0
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 0
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 0
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 0
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 0
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 0
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 0
+      - path: Bn_Sv98_Body001
+        weight: 0
+      - path: FPS HANDS
+        weight: 0
+      - path: Neck
+        weight: 0
+      - path: Neck/Head
+        weight: 0
+      - path: Neck/Head/Camera01
+        weight: 0
+      - path: Neck/L Clavicle
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 0
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 0
+      - path: Neck/R Clavicle
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/n_Sv98_HandParent
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 0
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire AIM NO SCOPE
+      takeName: Take 001
+      firstFrame: 664
+      lastFrame: 726
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: SniperSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 4d20f2405a49eb6438c5a9c61578277c,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera001
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/Bn_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking Aim no Scope
+      takeName: Take 001
+      firstFrame: 726
+      lastFrame: 786
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera001
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/Bn_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fire Aim Scope
+      takeName: Take 001
+      firstFrame: 803
+      lastFrame: 865
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: SniperSound
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 4d20f2405a49eb6438c5a9c61578277c,
+          type: 3}
+        floatParameter: 0
+        intParameter: 1
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera001
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/Bn_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking Aim Scope
+      takeName: Take 001
+      firstFrame: 865
+      lastFrame: 926
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera001
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/Bn_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 932
+      lastFrame: 964
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bn_Sv98_Body
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Bullet/Casquilo
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leaver/Sv98_Leaver
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Left/Sv98_Pata_Izq
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Leg_Right/Sv98_Pata_Der001
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Magazine/Sv98_Magazine_01
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Scope
+        weight: 1
+      - path: Bn_Sv98_Body/Bn_Sv98_Silencer
+        weight: 1
+      - path: Bn_Sv98_Body/SV98_Body
+        weight: 1
+      - path: Bn_Sv98_Body001
+        weight: 1
+      - path: FPS HANDS
+        weight: 1
+      - path: Lens
+        weight: 1
+      - path: Neck
+        weight: 1
+      - path: Neck/Head
+        weight: 1
+      - path: Neck/Head/Camera001
+        weight: 1
+      - path: Neck/L Clavicle
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger0/L Finger01/L Finger02
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger1/L Finger11/L Finger12
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger2/L Finger21/L Finger22
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger3/L Finger31/L Finger32
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L Forearm/L Hand/L Finger4/L Finger41/L Finger42
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1
+        weight: 1
+      - path: Neck/L Clavicle/L UpperArm/L ForeTwist/L ForeTwist1/L ForeTwist2
+        weight: 1
+      - path: Neck/R Clavicle
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/Bn_Sv98_HandParent
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger0/R Finger01/R Finger02
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger1/R Finger11/R Finger12
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger2/R Finger21/R Finger22
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger3/R Finger31/R Finger32
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R Forearm/R Hand/R Finger4/R Finger41/R Finger42
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1
+        weight: 1
+      - path: Neck/R Clavicle/R UpperArm/R ForeTwist/R ForeTwist1/R ForeTwist2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.0254
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

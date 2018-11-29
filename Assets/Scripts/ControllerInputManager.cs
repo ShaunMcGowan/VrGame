@@ -14,6 +14,8 @@ public class ControllerInputManager : MonoBehaviour {
     private bool goodToRotateRight = true;
     private bool goodToRotateLeft = true;
 
+    public bool GripPressedDown = false; // Set to to true when the grip is pressed
+
 
     void LateUpdate ()
     {
@@ -22,6 +24,12 @@ public class ControllerInputManager : MonoBehaviour {
             isSet = true;
             PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().TouchpadAxisChanged += new ControllerInteractionEventHandler(AxisChanged);
             PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().TouchpadTouchEnd += new ControllerInteractionEventHandler(TouchpadReleased);
+
+            PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(GripPressed);
+            PositionManager.Instance.leftController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(GripPressed);
+
+            PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(GripReleased);
+            PositionManager.Instance.leftController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(GripReleased);
         }
 
     }
@@ -82,6 +90,21 @@ public class ControllerInputManager : MonoBehaviour {
             goodToRotateLeft = true;
 
         }
+    }
+
+
+
+    /// <summary>
+    /// Sets the grip pressed bool value to true
+    /// </summary>
+    private void GripPressed(object sender, ControllerInteractionEventArgs e)
+    {
+        GripPressedDown = true;
+    }
+
+    private void GripReleased(object sender, ControllerInteractionEventArgs e)
+    {
+        GripPressedDown = false;
     }
 
     #region singleton

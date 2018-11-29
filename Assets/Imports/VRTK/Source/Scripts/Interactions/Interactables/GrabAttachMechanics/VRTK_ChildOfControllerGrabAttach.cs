@@ -29,11 +29,15 @@ namespace VRTK.GrabAttachMechanics
         /// <returns>Returns `true` if the grab is successful, `false` if the grab is unsuccessful.</returns>
         public override bool StartGrab(GameObject grabbingObject, GameObject givenGrabbedObject, Rigidbody givenControllerAttachPoint)
         {
-            if (base.StartGrab(grabbingObject, givenGrabbedObject, givenControllerAttachPoint))
+            print("Here is the grabbed object name " + givenGrabbedObject.transform.name );
+            if (!givenGrabbedObject.name.Equals("Sv98_Leaver"))
             {
-                SnapObjectToGrabToController(givenGrabbedObject);
-                grabbedObjectScript.isKinematic = true;
-                return true;
+                if (base.StartGrab(grabbingObject, givenGrabbedObject, givenControllerAttachPoint))
+                {
+                    SnapObjectToGrabToController(givenGrabbedObject);
+                    grabbedObjectScript.isKinematic = true;
+                    return true;
+                }
             }
             return false;
         }

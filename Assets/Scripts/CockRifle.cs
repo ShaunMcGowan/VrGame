@@ -1,11 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VRTK;
+using VRTK.GrabAttachMechanics;
+using VRTK.SecondaryControllerGrabActions;
 
 /// <summary>
 /// Script is responsible for handling the cocking of a rifle after it is fired
 /// </summary>
 public class CockRifle : MonoBehaviour {
+
+    /// <summary>
+    /// Used to modify vrtk 
+    /// </summary>
+    public GameObject sniper;
 
 
     /// <summary>
@@ -28,10 +36,22 @@ public class CockRifle : MonoBehaviour {
 
     private void RotateBolt(Collider collision)
     {
-        print("The collider is :  " + collision.transform.parent.name);
-        if (ControllerInputManager.Instance.GripPressedDown)
+        if (collision.transform.parent.parent.name.Equals("RightController"))   // if the matching controller is pressing the grip down and colliding we can rotate the bolt
         {
-            
+            sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.LeftOnly;
+            if (ControllerInputManager.Instance.rightGripPressedDown)
+            {
+                print("Right grip pressed true");
+            }
         }
+        if (collision.transform.parent.parent.name.Equals("LeftController"))
+        {
+            sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.RightOnly;
+            if (ControllerInputManager.Instance.leftGripPressedDown)
+            {
+                print("Left grip grab is true now also");
+            }
+        }
+        sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.Both;
     }
 }

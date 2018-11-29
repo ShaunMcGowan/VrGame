@@ -1245,7 +1245,7 @@ namespace VRTK
 
                 if (secondaryGrabActionScript != null)
                 {
-                    secondaryGrabActionScript.Initialise(this, GetGrabbingObject().GetComponentInChildren<VRTK_InteractGrab>(), GetSecondaryGrabbingObject().GetComponentInChildren<VRTK_InteractGrab>(), primaryControllerAttachPoint, secondaryControllerAttachPoint);
+                       secondaryGrabActionScript.Initialise(this, GetGrabbingObject().GetComponentInChildren<VRTK_InteractGrab>(), GetSecondaryGrabbingObject().GetComponentInChildren<VRTK_InteractGrab>(), primaryControllerAttachPoint, secondaryControllerAttachPoint);
                 }
             }
         }

@@ -501,35 +501,7 @@ Transform:
   m_Children:
   - {fileID: 2145456995}
   m_Father: {fileID: 873097256}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &370860269
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 370860270}
-  m_Layer: 0
-  m_Name: VRTKGrabPoints
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &370860270
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 370860269}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.384268, y: -8.216675, z: -3.1564822}
-  m_LocalScale: {x: 11.574075, y: 5.9244847, z: 9.259259}
-  m_Children: []
-  m_Father: {fileID: 873097256}
-  m_RootOrder: 9
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &373693662
 Prefab:
@@ -709,7 +681,7 @@ Transform:
   m_Children:
   - {fileID: 2014547874}
   m_Father: {fileID: 873097256}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &614911186
 GameObject:
@@ -934,7 +906,7 @@ Transform:
   m_Children:
   - {fileID: 665029328}
   m_Father: {fileID: 873097256}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &873097255
 GameObject:
@@ -969,7 +941,6 @@ Transform:
   m_LocalPosition: {x: 2.431, y: 1.0779, z: -1.0663}
   m_LocalScale: {x: 0.0864, y: 0.16879106, z: 0.10800001}
   m_Children:
-  - {fileID: 1548816158}
   - {fileID: 875208607}
   - {fileID: 303516372}
   - {fileID: 1838509034}
@@ -978,7 +949,6 @@ Transform:
   - {fileID: 594774166}
   - {fileID: 1415307346}
   - {fileID: 1928053227}
-  - {fileID: 370860270}
   - {fileID: 1387456543}
   - {fileID: 1408798018}
   m_Father: {fileID: 0}
@@ -1076,7 +1046,8 @@ MonoBehaviour:
   disableWhenIdle: 1
   allowedNearTouchControllers: 0
   allowedTouchControllers: 0
-  ignoredColliders: []
+  ignoredColliders:
+  - {fileID: 1279083735}
   isGrabbable: 1
   holdButtonToGrab: 1
   stayGrabbedOnTeleport: 1
@@ -1084,7 +1055,7 @@ MonoBehaviour:
   grabOverrideButton: 0
   allowedGrabControllers: 0
   grabAttachMechanicScript: {fileID: 873097260}
-  secondaryGrabActionScript: {fileID: 873097259}
+  secondaryGrabActionScript: {fileID: 0}
   isUsable: 0
   holdButtonToUse: 1
   useOnlyIfGrabbed: 0
@@ -1105,7 +1076,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.04, z: -0.3}
 --- !u!23 &873097263
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1176,7 +1147,7 @@ Transform:
   m_LocalScale: {x: 11.571942, y: 9.261385, z: 5.924505}
   m_Children: []
   m_Father: {fileID: 873097256}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1150037483
 GameObject:
@@ -1334,12 +1305,7 @@ GameObject:
   - component: {fileID: 1279083734}
   - component: {fileID: 1279083733}
   - component: {fileID: 1279083735}
-  - component: {fileID: 1279083740}
-  - component: {fileID: 1279083739}
-  - component: {fileID: 1279083738}
   - component: {fileID: 1279083737}
-  - component: {fileID: 1279083736}
-  - component: {fileID: 1279083741}
   - component: {fileID: 1279083742}
   m_Layer: 0
   m_Name: Sv98_Leaver
@@ -1420,38 +1386,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: b2556970f243232409d20b4092482126, type: 3}
---- !u!114 &1279083736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1279083731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc2315305343a584e8758755b54117c5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clipOnNearTouch: {fileID: 0}
-  strengthOnNearTouch: 0
-  durationOnNearTouch: 0
-  intervalOnNearTouch: 0.05
-  cancelOnNearUntouch: 1
-  clipOnTouch: {fileID: 0}
-  strengthOnTouch: 0
-  durationOnTouch: 0
-  intervalOnTouch: 0.05
-  cancelOnUntouch: 1
-  clipOnGrab: {fileID: 0}
-  strengthOnGrab: 0
-  durationOnGrab: 0
-  intervalOnGrab: 0.05
-  cancelOnUngrab: 1
-  clipOnUse: {fileID: 0}
-  strengthOnUse: 0
-  durationOnUse: 0
-  intervalOnUse: 0.05
-  cancelOnUnuse: 1
-  objectToAffect: {fileID: 0}
 --- !u!54 &1279083737
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1467,104 +1401,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1279083738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1279083731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18055ba762aa3994f9c10208cd088bc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1279083739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1279083731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b7668d60aac28b44ab5e626253713906, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
-  detachDistance: 1
-  velocityLimit: Infinity
-  angularVelocityLimit: Infinity
-  maxDistanceDelta: 10
---- !u!114 &1279083740
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1279083731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3abaf4521bf2344ea21ed3020b98eb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  disableWhenIdle: 1
-  allowedNearTouchControllers: 0
-  allowedTouchControllers: 0
-  ignoredColliders: []
-  isGrabbable: 1
-  holdButtonToGrab: 1
-  stayGrabbedOnTeleport: 1
-  validDrop: 1
-  grabOverrideButton: 0
-  allowedGrabControllers: 0
-  grabAttachMechanicScript: {fileID: 1279083739}
-  secondaryGrabActionScript: {fileID: 1279083738}
-  isUsable: 0
-  holdButtonToUse: 1
-  useOnlyIfGrabbed: 0
-  pointerActivatesUseAction: 0
-  useOverrideButton: 0
-  allowedUseControllers: 0
-  objectHighlighter: {fileID: 0}
-  touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
-  usingState: 0
---- !u!59 &1279083741
-HingeJoint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1279083731}
-  m_ConnectedBody: {fileID: 614911187}
-  m_Anchor: {x: 0, y: 0.013969228, z: 0}
-  m_Axis: {x: 0, y: 1, z: 0}
-  m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.00050013844, y: 0.03086919, z: -0.00009993512}
-  m_UseSpring: 0
-  m_Spring:
-    spring: 0
-    damper: 0
-    targetPosition: 0
-  m_UseMotor: 0
-  m_Motor:
-    targetVelocity: 0
-    force: 0
-    freeSpin: 0
-  m_UseLimits: 0
-  m_Limits:
-    min: 0
-    max: 90
-    bounciness: 0
-    bounceMinVelocity: 0
-    contactDistance: 0
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_EnableCollision: 0
-  m_EnablePreprocessing: 0
-  m_MassScale: 1
-  m_ConnectedMassScale: 1
 --- !u!114 &1279083742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1576,6 +1412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ab64981034c43b4a83cd61ecd701fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sniper: {fileID: 873097255}
 --- !u!43 &1285942657
 Mesh:
   m_ObjectHideFlags: 0
@@ -1935,7 +1772,7 @@ Transform:
   m_LocalScale: {x: 1, y: 0.51187587, z: 2.6696005}
   m_Children: []
   m_Father: {fileID: 873097256}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1387456545
 Rigidbody:
@@ -2031,11 +1868,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1408798017}
   m_LocalRotation: {x: -0.35355398, y: -0.35355282, z: 0.6123716, w: 0.6123733}
-  m_LocalPosition: {x: -0.10301174, y: 0.40705067, z: 3.8200257}
+  m_LocalPosition: {x: -0.1, y: 0.407, z: 5.51}
   m_LocalScale: {x: 5.9244866, y: 10.023298, z: 11.202517}
   m_Children: []
   m_Father: {fileID: 873097256}
-  m_RootOrder: 11
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -60, y: 0, z: 0}
 --- !u!114 &1408798019
 MonoBehaviour:
@@ -2096,7 +1933,7 @@ Transform:
   m_Children:
   - {fileID: 524514039}
   m_Father: {fileID: 873097256}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1437563317
 GameObject:
@@ -2133,20 +1970,6 @@ Transform:
   - {fileID: 2090022821}
   - {fileID: 675370633}
   m_Father: {fileID: 146687106}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1548816158
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4241138269739790, guid: 86c19f28cd1ba8a46b825fcd897e15ca,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1923506385}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.384268, y: -8.216675, z: -3.1564822}
-  m_LocalScale: {x: 11.574075, y: 5.9244847, z: 9.259259}
-  m_Children: []
-  m_Father: {fileID: 873097256}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1632551101
@@ -2651,7 +2474,7 @@ Transform:
   - {fileID: 614911188}
   - {fileID: 1279083732}
   m_Father: {fileID: 873097256}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1842972674
 GameObject:
@@ -2971,42 +2794,6 @@ MonoBehaviour:
   snapDelay: 0.5
   blinkTransitionSpeed: 0.6
   axisThreshold: 0
---- !u!1 &1923506385
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1387613158037562, guid: 86c19f28cd1ba8a46b825fcd897e15ca,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1548816158}
-  - component: {fileID: 1923506386}
-  m_Layer: 0
-  m_Name: OldSniper
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &1923506386
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 95124574272072558, guid: 86c19f28cd1ba8a46b825fcd897e15ca,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1923506385}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: b2556970f243232409d20b4092482126, type: 3}
-  m_Controller: {fileID: 9100000, guid: da3cb3425d2a73a41a84e634703eacdd, type: 2}
-  m_CullingMode: 1
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1928053226
 GameObject:
   m_ObjectHideFlags: 0
@@ -3037,7 +2824,7 @@ Transform:
   m_LocalScale: {x: 11.571942, y: 9.261385, z: 5.924505}
   m_Children: []
   m_Father: {fileID: 873097256}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &1928053228
 MeshRenderer:
@@ -3112,7 +2899,7 @@ Transform:
   m_Children:
   - {fileID: 1216041915}
   m_Father: {fileID: 873097256}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2014547873
 GameObject:
@@ -3291,7 +3078,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03db52d1c4e9b5d4fb67147d4d63896e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GripPressedDown: 0
+  rightGripPressedDown: 0
+  leftGripPressedDown: 0
 --- !u!114 &2145262027
 MonoBehaviour:
   m_ObjectHideFlags: 0

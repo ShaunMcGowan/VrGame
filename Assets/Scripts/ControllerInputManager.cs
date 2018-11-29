@@ -14,7 +14,8 @@ public class ControllerInputManager : MonoBehaviour {
     private bool goodToRotateRight = true;
     private bool goodToRotateLeft = true;
 
-    public bool GripPressedDown = false; // Set to to true when the grip is pressed
+    public bool rightGripPressedDown = false; // Set to to true when the grip is pressed
+    public bool leftGripPressedDown = false; // Set to to true when the grip is pressed
 
 
     void LateUpdate ()
@@ -25,11 +26,11 @@ public class ControllerInputManager : MonoBehaviour {
             PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().TouchpadAxisChanged += new ControllerInteractionEventHandler(AxisChanged);
             PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().TouchpadTouchEnd += new ControllerInteractionEventHandler(TouchpadReleased);
 
-            PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(GripPressed);
-            PositionManager.Instance.leftController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(GripPressed);
+            PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(RightGripPressed);
+            PositionManager.Instance.leftController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(LeftGripPressed);
 
-            PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(GripReleased);
-            PositionManager.Instance.leftController.GetComponent<VRTK_ControllerEvents>().GripPressed += new ControllerInteractionEventHandler(GripReleased);
+            PositionManager.Instance.rightController.GetComponent<VRTK_ControllerEvents>().GripReleased += new ControllerInteractionEventHandler(RightGripReleased);
+            PositionManager.Instance.leftController.GetComponent<VRTK_ControllerEvents>().GripReleased += new ControllerInteractionEventHandler(LeftGripReleased);
         }
 
     }
@@ -93,20 +94,33 @@ public class ControllerInputManager : MonoBehaviour {
     }
 
 
+    #region GripFunction
+    /// <summary>
+    /// Sets the grip pressed bool value to true
+    /// </summary>
+    private void RightGripPressed(object sender, ControllerInteractionEventArgs e)
+    {
+        rightGripPressedDown = true;
+    }
+
+    private void RightGripReleased(object sender, ControllerInteractionEventArgs e)
+    {
+        rightGripPressedDown = false;
+    }
 
     /// <summary>
     /// Sets the grip pressed bool value to true
     /// </summary>
-    private void GripPressed(object sender, ControllerInteractionEventArgs e)
+    private void LeftGripPressed(object sender, ControllerInteractionEventArgs e)
     {
-        GripPressedDown = true;
+        leftGripPressedDown = true;
     }
 
-    private void GripReleased(object sender, ControllerInteractionEventArgs e)
+    private void LeftGripReleased(object sender, ControllerInteractionEventArgs e)
     {
-        GripPressedDown = false;
+        leftGripPressedDown = false;
     }
-
+    #endregion
     #region singleton
     public static ControllerInputManager Instance;
     private void Awake()

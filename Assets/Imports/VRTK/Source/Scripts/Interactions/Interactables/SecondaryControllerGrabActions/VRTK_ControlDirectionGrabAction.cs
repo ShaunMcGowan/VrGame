@@ -43,10 +43,11 @@ namespace VRTK.SecondaryControllerGrabActions
         /// <param name="secondaryGrabPoint">The point on the Interactable Object where the secondary Interact Grab initially grabbed the Interactable Object.</param>
         public override void Initialise(VRTK_InteractableObject currentGrabbdObject, VRTK_InteractGrab currentPrimaryGrabbingObject, VRTK_InteractGrab currentSecondaryGrabbingObject, Transform primaryGrabPoint, Transform secondaryGrabPoint)
         {
-            base.Initialise(currentGrabbdObject, currentPrimaryGrabbingObject, currentSecondaryGrabbingObject, primaryGrabPoint, secondaryGrabPoint);
-            initialPosition = currentGrabbdObject.transform.localPosition;
-            initialRotation = currentGrabbdObject.transform.localRotation;
-            StopRealignOnRelease();
+                base.Initialise(currentGrabbdObject, currentPrimaryGrabbingObject, currentSecondaryGrabbingObject, primaryGrabPoint, secondaryGrabPoint);
+                initialPosition = currentGrabbdObject.transform.localPosition;
+                initialRotation = currentGrabbdObject.transform.localRotation;
+                StopRealignOnRelease();
+            
         }
 
         /// <summary>

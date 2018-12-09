@@ -30,7 +30,6 @@ public class PositionManager : MonoBehaviour {
             leftController = VRTK_DeviceFinder.DeviceTransform(VRTK_DeviceFinder.Devices.LeftController);
             rightController = VRTK_DeviceFinder.DeviceTransform(VRTK_DeviceFinder.Devices.RightController);
             playAreaScripts = GameObject.Find("PlayArea");
-            playerRotator = GameObject.Find("Rotator").transform;
         }
     }
     /// <summary>

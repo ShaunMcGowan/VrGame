@@ -33,7 +33,11 @@ public class CockRifle : MonoBehaviour {
     {
         RotateBolt(collision);
     }
-
+    private void Start()
+    {
+        Vector3 targetPos = new Vector3(transform.position.x,45,transform.position.z);
+      //  transform.LookAt(targetPos);
+    }
     private void RotateBolt(Collider collision)
     {
         if (collision.transform.parent.parent.name.Equals("RightController"))   // if the matching controller is pressing the grip down and colliding we can rotate the bolt
@@ -41,7 +45,8 @@ public class CockRifle : MonoBehaviour {
             sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.LeftOnly;
             if (ControllerInputManager.Instance.rightGripPressedDown)
             {
-                print("Right grip pressed true");
+                Vector3 targetPos = new Vector3(transform.position.x, transform.position.y, collision.transform.position.z);
+                transform.LookAt(collision.transform.position);
             }
         }
         if (collision.transform.parent.parent.name.Equals("LeftController"))
@@ -49,7 +54,8 @@ public class CockRifle : MonoBehaviour {
             sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.RightOnly;
             if (ControllerInputManager.Instance.leftGripPressedDown)
             {
-                print("Left grip grab is true now also");
+                Vector3 targetPos = new Vector3(transform.position.x, transform.position.y, collision.transform.position.z);
+                this.transform.LookAt(collision.transform.position);
             }
         }
         sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.Both;

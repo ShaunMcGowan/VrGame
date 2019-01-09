@@ -15,6 +15,13 @@ public class CockRifle : MonoBehaviour {
     /// </summary>
     public GameObject sniper;
 
+    private Vector3 startingAngle;
+    
+
+    private void LateUpdate()
+    {
+        transform.localEulerAngles = new Vector3(startingAngle.x,startingAngle.y, transform.localEulerAngles.z);
+    }
 
     /// <summary>
     ///  Handles rotating the bolt
@@ -36,12 +43,15 @@ public class CockRifle : MonoBehaviour {
     private void Start()
     {
         Vector3 targetPos = new Vector3(transform.position.x,45,transform.position.z);
+        startingAngle = transform.localEulerAngles;
       //  transform.LookAt(targetPos);
     }
     private void RotateBolt(Collider collision)
     {
+        print("Are we even colliding");
         if (collision.transform.parent.parent.name.Equals("RightController"))   // if the matching controller is pressing the grip down and colliding we can rotate the bolt
         {
+            print("Are we lookin0");
             sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.LeftOnly;
             if (ControllerInputManager.Instance.rightGripPressedDown)
             {
@@ -51,6 +61,7 @@ public class CockRifle : MonoBehaviour {
         }
         if (collision.transform.parent.parent.name.Equals("LeftController"))
         {
+            print("Are we lookin0");
             sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.RightOnly;
             if (ControllerInputManager.Instance.leftGripPressedDown)
             {

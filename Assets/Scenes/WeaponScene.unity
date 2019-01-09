@@ -669,6 +669,7 @@ GameObject:
   - component: {fileID: 590165278}
   - component: {fileID: 590165277}
   - component: {fileID: 590165276}
+  - component: {fileID: 590165281}
   m_Layer: 0
   m_Name: Lever
   m_TagString: Untagged
@@ -699,8 +700,8 @@ CapsuleCollider:
   m_Enabled: 1
   m_Radius: 1.18
   m_Height: 13.08
-  m_Direction: 2
-  m_Center: {x: 0.000015258789, y: 0, z: 4.89}
+  m_Direction: 1
+  m_Center: {x: 0, y: -4.82, z: 0}
 --- !u!23 &590165273
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -749,14 +750,14 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 590165270}
-  m_LocalRotation: {x: -0.011347448, y: 0.70703524, z: 0.70701575, w: -0.010061295}
-  m_LocalPosition: {x: 0.00082023855, y: 0.13632587, z: 0.11477947}
+  m_LocalRotation: {x: 0.007239461, y: -0.008714498, z: -0.0015599548, w: 0.9999347}
+  m_LocalPosition: {x: -0.0017, y: 0.2415, z: 0.1148}
   m_LocalScale: {x: 0.009999501, y: 0.010000002, z: 0.009999527}
   m_Children:
   - {fileID: 1279083732}
   m_Father: {fileID: 875208607}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0.82800007, y: -1, z: -0.186}
 --- !u!114 &590165276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -864,6 +865,100 @@ MonoBehaviour:
   objectHighlighter: {fileID: 0}
   touchHighlightColor: {r: 0, g: 0, b: 0, a: 0}
   usingState: 0
+--- !u!153 &590165281
+ConfigurableJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 590165270}
+  m_ConnectedBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 0.5000153, z: 0}
+  m_Axis: {x: 1, y: 0, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: 2.4248319, y: 1.168431, z: -1.188024}
+  serializedVersion: 2
+  m_SecondaryAxis: {x: 0, y: 1, z: 0}
+  m_XMotion: 0
+  m_YMotion: 2
+  m_ZMotion: 0
+  m_AngularXMotion: 0
+  m_AngularYMotion: 2
+  m_AngularZMotion: 0
+  m_LinearLimitSpring:
+    spring: 0
+    damper: 0
+  m_LinearLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularXLimitSpring:
+    spring: 0
+    damper: 0
+  m_LowAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_HighAngularXLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularYZLimitSpring:
+    spring: 0
+    damper: 0
+  m_AngularYLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_AngularZLimit:
+    limit: 0
+    bounciness: 0
+    contactDistance: 0
+  m_TargetPosition: {x: 0, y: 0, z: 0}
+  m_TargetVelocity: {x: 0, y: 0, z: 0}
+  m_XDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_YDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_ZDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_TargetRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_TargetAngularVelocity: {x: 0, y: 0, z: 0}
+  m_RotationDriveMode: 0
+  m_AngularXDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_AngularYZDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_SlerpDrive:
+    serializedVersion: 3
+    positionSpring: 0
+    positionDamper: 0
+    maximumForce: 3.4028233e+38
+  m_ProjectionMode: 0
+  m_ProjectionDistance: 0.1
+  m_ProjectionAngle: 180
+  m_ConfiguredInWorldSpace: 0
+  m_SwapBodies: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
 --- !u!1 &594774165
 GameObject:
   m_ObjectHideFlags: 0
@@ -1486,9 +1581,9 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279083731}
-  m_LocalRotation: {x: 0.009193207, y: -0.70954555, z: -0.70450395, w: -0.011613976}
-  m_LocalPosition: {x: -0.278876, y: -0.12202026, z: 11.082436}
-  m_LocalScale: {x: 97.364235, y: 100.009674, z: 105.19375}
+  m_LocalRotation: {x: 0.0035902257, y: -0.0025671206, z: 0.00042856944, w: 0.99999017}
+  m_LocalPosition: {x: 0.195504, y: 0.56786525, z: -0.12419216}
+  m_LocalScale: {x: 97.36482, y: 100.0052, z: 105.199}
   m_Children: []
   m_Father: {fileID: 590165275}
   m_RootOrder: 0

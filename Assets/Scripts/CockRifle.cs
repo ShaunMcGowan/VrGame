@@ -16,11 +16,19 @@ public class CockRifle : MonoBehaviour {
     public GameObject sniper;
 
     private Vector3 startingAngle;
+
+    float previousYAngle = 359;
     
 
     private void LateUpdate()
     {
         transform.localEulerAngles = new Vector3(startingAngle.x,transform.localEulerAngles.y,startingAngle.z);
+
+        if (transform.localEulerAngles.y > 360 || transform.localEulerAngles.y < 325)
+        {
+           transform.localEulerAngles = new Vector3(startingAngle.x, previousYAngle, startingAngle.z);
+        }
+        previousYAngle = transform.localEulerAngles.y;
     }
 
     /// <summary>

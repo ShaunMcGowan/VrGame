@@ -15,20 +15,33 @@ public class CockRifle : MonoBehaviour {
     /// </summary>
     public GameObject sniper;
 
+    // Both these values are used to lock the axis and position for the bolt
     private Vector3 startingAngle;
+    private Vector3 startingPos;
 
     float previousYAngle = 359;
-    
+
+    /// <summary>
+    /// The first step of the cock is false when we can pull the bolt back
+    /// </summary>
+    private bool rotateBolt = true;
+
+    /// <summary>
+    /// Pulling the bolt is ready when the bolt is fully rotated
+    /// </summary>
+    private bool pullBolt = false;
 
     private void LateUpdate()
     {
         transform.localEulerAngles = new Vector3(startingAngle.x,transform.localEulerAngles.y,startingAngle.z);
-
+        transform.position = new Vector3(startingPos.x, transform.position.y, startingPos.z);
+        print("The local y is : " + transform.localEulerAngles.y);
         if (transform.localEulerAngles.y > 360 || transform.localEulerAngles.y < 325)
         {
            transform.localEulerAngles = new Vector3(startingAngle.x, previousYAngle, startingAngle.z);
         }
         previousYAngle = transform.localEulerAngles.y;
+        ValidateRotateBolt();
     }
 
     /// <summary>
@@ -37,7 +50,14 @@ public class CockRifle : MonoBehaviour {
     /// <param name="collision"></param>
     public void OnTriggerStay(Collider collision)
     {
-        RotateBolt(collision);
+        if (rotateBolt)
+        {
+            RotateBolt(collision);
+        }
+        if (pullBolt)
+        {
+            PullOutBolt(collision);
+        }
     }
 
     /// <summary>
@@ -46,19 +66,37 @@ public class CockRifle : MonoBehaviour {
     /// <param name="collision"></param>
     public void OnTriggerEnter(Collider collision)
     {
-        RotateBolt(collision);
+        if (rotateBolt)
+        {
+            RotateBolt(collision);
+        }
+        if (pullBolt)
+        {
+            PullOutBolt(collision);
+        }
     }
     private void Start()
     {
         Vector3 targetPos = new Vector3(transform.position.x,45,transform.position.z);
+        startingPos = transform.position;
         startingAngle = transform.localEulerAngles;
+    }
+
+    /// <summary>
+    /// Checks to see if the bolt has rotated enough to be cocked
+    /// </summary>
+    private void ValidateRotateBolt()
+    {
+        if(transform.localEulerAngles.y < 330)
+        {
+            rotateBolt = false;
+        }
+        pullBolt = true;
     }
     private void RotateBolt(Collider collision)
     {
-        print("Are we even colliding");
         if (collision.transform.parent.parent != null && collision.transform.parent.parent.name.Equals("RightController"))   // if the matching controller is pressing the grip down and colliding we can rotate the bolt
         {
-            print("Are we lookin0");
             sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.LeftOnly;
             if (ControllerInputManager.Instance.rightGripPressedDown)
             {
@@ -67,7 +105,6 @@ public class CockRifle : MonoBehaviour {
         }
         if (collision.transform.parent.parent.name.Equals("LeftController"))
         {
-            print("Are we lookin0");
             sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.RightOnly;
             if (ControllerInputManager.Instance.leftGripPressedDown)
             {         
@@ -75,5 +112,26 @@ public class CockRifle : MonoBehaviour {
             }
         }
         sniper.GetComponent<VRTK_InteractableObject>().allowedGrabControllers = VRTK_InteractableObject.AllowedController.Both;
+    }
+    /// <summary>
+    /// Handles moving the bolt toward the controller
+    /// </summary>
+    private void PullOutBolt(Collider collision)
+    {
+        print("Pulling out");
+        if (collision.transform.parent.parent != null && collision.transform.parent.parent.name.Equals("RightController"))   // if the matching controller is pressing the grip down and colliding we can rotate the bolt
+        {
+            if (ControllerInputManager.Instance.rightGripPressedDown)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, collision.transform.position, 1);
+            }
+        }
+        if (collision.transform.parent.parent.name.Equals("LeftController"))
+        {
+            if (ControllerInputManager.Instance.leftGripPressedDown)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, collision.transform.position, 1);
+            }
+        };
     }
 }
